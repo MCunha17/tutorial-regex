@@ -42,7 +42,11 @@ Our regex uses a greedy quantifier * to match as many characters as possible. Th
 
 ### Back-references
 
+\/\1 is a back-reference that matches the same text as the first capturing group. This ensures the closing HTML tag matches the opening tag.
+
 ### Non-captring Groups
+
+(?:> and |\s+\/>) forms a non-capturing group, useful in scenarios where we want to group parts of the regex but don't need to capture the information for later use.
 
 ## Author
 
