@@ -19,7 +19,7 @@ You can access the Regex Gist [here](https://gist.github.com/MCunha17/489c668153
 ## Repository
 You can access the Regex Gist repository [here](https://github.com/MCunha17/tutorial-regex). A screenshot of the Regest Gist is available below:
 
-!(assets/images/regex-tutorial-gist-screenshot.png)
+![Screenshot of application](assets/images/regex-tutorial-gist-screenshot.png)
 
 ## Usage
 The provided Markdown file takes you step-by-step through a regular expression that matches HTML tags.
