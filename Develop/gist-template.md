@@ -4,7 +4,11 @@ This tutorial aims to provide a comprehensive guide to understanding how a parti
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Our featured regular expression for this tutorial is an HTML tag matcher:
+
+/^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/
+
+This regex checks if a given string is a valid HTML tag. HTML tags are the building blocks of all websites, and making sure they're properly formatted is vital for the web page's correct rendering.
 
 ## Table of Contents
 
