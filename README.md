@@ -15,7 +15,9 @@ This GitHub Gist provides an in-depth tutorial on understanding and breaking dow
 * [Questions](#questions)
 
 ## Repository
-You can access the application's repository [here](https://github.com/MCunha17/cms-site-blog).
+You can access the application's repository [here](https://github.com/MCunha17/tutorial-regex). A screenshot of the gist is available below:
+
+<img src="assets/images/regex-tutorial-gist-screenshot">
 
 ## Usage
 The provided Markdown file takes you step-by-step through a regular expression that matches HTML tags.
