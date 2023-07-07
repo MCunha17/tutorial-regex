@@ -34,7 +34,11 @@ Anchors correspond to positions before, after, or between characters. The ^ and 
 
 ### Quantifiers
 
+Quantifiers like * in our regex determine how many instances of a character, group, or character class must be present for a match. It's important in parsing HTML tags where some parts of the tag may repeat.
+
 ### Greedy and Lazy Match
+
+Our regex uses a greedy quantifier * to match as many characters as possible. This helps in extracting the entire content within an HTML tag.
 
 ### Back-references
 
