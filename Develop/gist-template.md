@@ -24,25 +24,21 @@ The regular expression we'll delve into is /^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+
 
 Anchors correspond to positions before, after, or between characters. The ^ and $ symbols are start and end of line anchors, ensuring that the string fully matches the pattern from the beginning to the end. This is vital in search advertising where HTML tags need to be exact.
 
-### Quantifiers
+### Grouping and Capturing
 
-### OR Operator
+([a-z]+) forms a capturing group and matches one or more (+ is a quantifier) lowercase letters (a-z). Grouping is crucial for distinguishing different parts of an HTML tag, like the tag name and attributes.
 
 ### Character Classes
 
-### Flags
+[^<]+ is a character set that matches any character that is NOT a <. This is important in matching HTML tags as we want to ignore any character that isn't part of the tag name or attributes.
 
-### Grouping and Capturing
-
-### Bracket Expressions
+### Quantifiers
 
 ### Greedy and Lazy Match
 
-### Boundaries
-
 ### Back-references
 
-### Look-ahead and Look-behind
+### Non-captring Groups
 
 ## Author
 
