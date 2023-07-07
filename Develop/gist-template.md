@@ -22,6 +22,8 @@ The regular expression we'll delve into is /^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+
 
 ### Anchors
 
+Anchors correspond to positions before, after, or between characters. The ^ and $ symbols are start and end of line anchors, ensuring that the string fully matches the pattern from the beginning to the end. This is vital in search advertising where HTML tags need to be exact.
+
 ### Quantifiers
 
 ### OR Operator
