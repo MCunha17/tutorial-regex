@@ -7,6 +7,8 @@ The displayed license badge is sourced from <a href="https://shields.io/category
 ## Description
 This GitHub Gist provides an in-depth tutorial on understanding and breaking down a specific regular expression (regex), specifically a regex for matching HTML tags. Regular expressions are fundamental to manipulating and validating text patterns. This guide will assist you in you in understanding regex for matching HTML by dissecting its components and explaining how they function in detail.
 
+You can access the Regex Gist [here](https://gist.github.com/MCunha17/489c6681535360eca18f227991d32648). The format for this Regex Git was taken from [Xandromus](https://github.com/coding-boot-camp/bug-free-goggles).
+
 ## Table of Contents
 * [Repository](#repository)
 * [Usage](#usage)
@@ -15,7 +17,7 @@ This GitHub Gist provides an in-depth tutorial on understanding and breaking dow
 * [Questions](#questions)
 
 ## Repository
-You can access the application's repository [here](https://github.com/MCunha17/tutorial-regex). A screenshot of the gist is available below:
+You can access the Regex Gist repository [here](https://github.com/MCunha17/tutorial-regex). A screenshot of the Regest Gist is available below:
 
 <img src="assets/images/regex-tutorial-gist-screenshot">
 
