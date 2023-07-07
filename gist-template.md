@@ -6,7 +6,7 @@ One frequent application in search advertising could be ensuring that all your H
 
 ## Summary
 
-The regular expression we'll delve into is /^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/, designed to match HTML tags in a string. Properly formatted HTML tags are crucial for search advertising as they influence how your webpage is indexed and how tracking scripts are triggered.
+This tutorial dives into the regex /^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/, designed to match HTML tags in a string. Properly formatted HTML tags are crucial for search advertising as they influence how your webpage is indexed and how tracking scripts are triggered.
 
 ## Table of Contents
 
