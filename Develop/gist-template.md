@@ -15,8 +15,8 @@ The regular expression we'll delve into is /^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+
 - [Character Classes](#character-classes)
 - [Quantifiers](#quantifiers)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Back-references](#back-references)
-- [Non-capturing Groups](#non-capturing-groups)
+- [Back-References](#back-references)
+- [Non-Capturing Groups](#non-capturing-groups)
 
 ## Regex Components
 
@@ -40,14 +40,14 @@ Quantifiers like * in our regex determine how many instances of a character, gro
 
 Our regex uses a greedy quantifier * to match as many characters as possible. This helps in extracting the entire content within an HTML tag.
 
-### Back-references
+### Back-References
 
 \/\1 is a back-reference that matches the same text as the first capturing group. This ensures the closing HTML tag matches the opening tag.
 
-### Non-captring Groups
+### Non-Capturing Groups
 
 (?:> and |\s+\/>) forms a non-capturing group, useful in scenarios where we want to group parts of the regex but don't need to capture the information for later use.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This tutorial was crafted by Maria Cunha, a dedicated Product Marketing professional. Currently, I am expanding my horizons by learning how to code, aiming to bridge the gap between the technical and marketing worlds. My mission is to enhance my understanding of the technical dimensions of products and foster more effective communication with engineering teams. I believe that this skillset will enable me to bring our products closer to the market and our customers. Check out my [GitHub profile MCunha17](https://github.com/MCunha17) to see more of my projects.
