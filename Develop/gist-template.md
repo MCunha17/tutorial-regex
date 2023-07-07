@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Regex Tutorial: Matching an HTML Tag
 
-Introductory paragraph (replace this with your text)
+This tutorial aims to provide a comprehensive guide to understanding how a particular regular expression (regex) works. Regex, short for regular expression, is a powerful tool for manipulating text. It's used to find and replace patterns within strings and validate user input to ensure it meets specific criteria.
 
 ## Summary
 
